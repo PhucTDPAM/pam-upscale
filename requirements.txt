@@ -1,0 +1,5 @@
+numpy
+pillow
+customtkinter
+tkinterdnd2
+onnxruntime-directml

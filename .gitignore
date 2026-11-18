@@ -1,0 +1,15 @@
+# môi trường & file tạm
+.venv/
+__pycache__/
+*.pyc
+settings.json
+*.lnk
+*.part
+*.part.*
+bin/
+upscaled/
+
+# trọng số PyTorch: tự tải từ nguồn chính thức khi cần (DAT2 133MB vượt giới hạn 100MB của GitHub)
+# file .onnx vẫn được giữ để máy AMD/Intel chạy được ngay
+models/*.pth
+models/*.safetensors
